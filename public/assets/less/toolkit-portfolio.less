@@ -1,0 +1,94 @@
+@import "./_variables-minimal.less";
+@import "./_components.less";
+
+.navbar-brand > img{
+  height: 30px;
+}
+
+.navbar-default {
+  background-color: @gray-lighter;
+  border-radius: 0;
+  margin-bottom: 0;
+  min-height: 60px;
+  -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+  animation-delay: 0.5s;
+  .navbar-nav > li a{
+    // color: white;
+  }
+}
+
+#design-next {
+  background: @brand-primary1;
+}
+
+#logo, #logo-night {
+  fill: @brand-primary1;
+}
+
+#logo-moon {
+  fill: @brand-warning
+}
+
+#logo-mtn {
+  fill: @brand-success
+}
+
+
+@font-family-sans-serif: "Space Mono", Arial, sans-serif;
+@font-family-serif: "Eczar", Georgia, "Times New Roman", Times, serif;
+
+h1,.h1 {
+  font-family: @font-family-serif;
+  font-weight: 800;
+  color: @brand-primary1;
+}
+
+a.disable h1,a.disable .h1 {
+  color: @gray-light;
+  cursor: not-allowed;
+}
+
+.m-a-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-bordered {
+  border: 2px solid @gray-light;
+}
+
+.text-inv {
+  color: @gray-lighter;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-mute {
+  color: @gray;
+}
+
+.text-primary {
+  color: @brand-primary1;
+}
+
+.upper {
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.white {
+  color: white;
+}
+
+
+@media (max-width: @screen-xs-max) {
+  .block {
+    padding: 30px 15px;
+  }
+  h1, .h1 { font-size: @font-size-h2; }
+  h2, .h2 { font-size: @font-size-h3; }
+  h3, .h3 { font-size: @font-size-h4; }
+  h4, .h4 { font-size: @font-size-h5; }
+}

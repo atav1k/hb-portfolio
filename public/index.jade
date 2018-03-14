@@ -1,0 +1,76 @@
+section.block#landing-intro
+  div.container
+    div.row
+      div.col-sm-8.fadeInLeft.animated
+        h1 Hi, I'm Vikram
+        h2 
+    div.row
+      div.col-sm-2.hidden-xs.hidden-sm.fadeInLeft.animated
+        img(src="/assets/img/vikram.gif").m-t.img-responsive
+      div.col-sm-6.fadeInLeft.animated
+        h3 An educator turned designer with a penchant for researching needs and prototyping interactions.
+        h3 Based in Oakland, I spend my time learning to code, writing on culture and blending teas.
+      div.col-sm-4.text-mute.fadeInRight.animated
+        p.m-t 2000s: University & teaching technology to kids
+        p 2010s: Moving between web development and product design
+        p Also see my 
+          a.text-primary(href="/assets/img/vikram-portfolio.pdf") quick portfolio, 
+          a.text-primary(href="/assets/img/vikram-resume.pdf") résumé 
+          | or  
+          a.text-primary(href="https://dribbble.com/atav1k") Dribbble.
+    
+
+section.block#landing-cases.fadeIn.animated
+  div.container
+    div.row.m-t-md
+      div.col-sm-12.m-b-lg
+        a(href="/design/luka")
+          h1 Payments for shops and services
+        p.lead 2016
+      div.col-sm-12.m-b-lg
+        a(href="/design/teja")
+          h1 Teas for cognitive enhancements
+        p.lead 2016
+      div.col-sm-12.m-b-lg
+        a(href="/design/whiplash")
+          h1 Branding order fulfillment
+        p.lead 2015
+      div.col-sm-12.m-b-lg
+        a(href="/design/depict")
+          h1 Bringing digital art home
+        p.lead 2014
+    div.row.m-t-lg
+      div.col-sm-12
+        span.h5.b-t.upper Writing
+        p.lead Some of my more popular essays.
+    div.row
+      each post, slug in public._data
+        div.col-sm-12.m-b-lg
+          a(href="#{slug}")
+            h1: != post.title
+          p.lead.m-b-0: != post.subtitle
+          span: != post.tag
+    div.row.m-t-lg
+      div.col-sm-12
+        span.h5.b-t.upper Speaking
+        p.lead Past speaking engagements
+    div.row.m-t-md
+      div.col-sm-12.m-b-lg
+        a(href="https://youtu.be/c4IGpoGTWSM")
+          h1 The design of useful personal data
+        p.lead 2016—Alterconf San Francisco
+      div.col-sm-12.m-b-lg
+        a.disable(disabled="disabled")
+          h1 Life after coffee
+        p.lead 2016—Good Magazine at Design Week, San Francisco
+      div.col-sm-12.m-b-lg
+        a.disable(disabled="disabled")
+          h1 From research to prototype
+        p.lead 2016—Whitespace Design Finale, San Francisco
+
+section.block#landing-contact
+  div.container
+    div.row
+      div.col-sm-12
+        span.h5.upper Contact
+        h2 You can find me on <a href="https://dribbble.com/atav1k">dribbble</a>, <a href="https://medium.com/@atav1k">medium</a> and <a href="https://twitter.com/atav1k">twitter</a>.

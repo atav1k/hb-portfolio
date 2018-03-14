@@ -1,0 +1,13 @@
+section.block.fadeIn.animated
+  div.container
+    div.row
+      div.col-sm-12
+        span.h5.b-t.upper Writing
+        p.lead In 2015 after design and planning, I launched Absurdist, a publication edited by a team of editors which gained 32k followers, a few million views and national exposure. I was also selected to contribute to Medium's Message as a culture and technology writer. I'm not really working on science fiction now.
+    div.row
+      each post, slug in public.posts._data
+        div.col-sm-12.m-b-lg
+          a(href="#{slug}")
+            h1: = post.title
+          p.lead.m-b-0: != post.subtitle
+          span: != post.tag

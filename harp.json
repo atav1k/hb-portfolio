@@ -1,0 +1,16 @@
+{
+  "domains": [""],
+  "globals": {
+    "site_title": "Vikram Babu",
+    "twitter": "@YungRama",
+    "site_url": "http://vikram.cc",
+    "disqus": {
+      "enabled": false,
+      "shortname": ""
+    },
+    "sitemap": {
+      "enabled": true,
+      "changefreq": "daily"
+    }
+  }
+}

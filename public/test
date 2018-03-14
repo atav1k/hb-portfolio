@@ -1,0 +1,12 @@
+
+        //
+          each post, slug in public.design._data
+            div.row.m-t-md
+              div.col-sm-6.m-b-lg
+                // h3: a(href="/design/#{slug}")= post.title
+                h3= post.title
+                p.lead= post.subtitle
+                p.lead= post.outcome
+                h4
+                  a(href="#{post.url}") Website
+                span.label.label-default= post.tag

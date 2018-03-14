@@ -1,0 +1,42 @@
+{
+  "verdigris": {
+    "title": "Verdigris, Making Smarter Energy Choices",
+    "subtitle": "Facility Managers have little insight into how they consume energy. Verdigris, a StartX alumni located on the NASA Ames research park, built a hardware solution to track energy use down to the device but they needed design thinking to understand end users and inform product features.",
+    "outcome": "I was hired as their lead product designer, responsible for researching users, defining solutions and developing prototypes. With the design team, we conducted a brand refresh with a style guide that was implemented across the various products.",
+    "url": "http://verdigris.co",
+    "tag": "Product Design, User Research, User Interface",
+    "img": "design-verdigris.png"
+  },
+  "depict": {
+    "title": "Depict, Bringing Digital Art Home",
+    "subtitle": "After building a HD digital art marketplace Depict needed to improve user flows, refresh their brand identity, and build an iOS app for consumers new to digital collections.",
+    "outcome": "I was contracted to redevelop their frontend, improving artwork presentation and discovery, while prototyping their iOS app and launching a new brand identity.",
+    "url": "http://depict.com",
+    "tag": "Product Design, User Interface, Brand Identity",
+    "img": "design-depict.png"
+  },
+  "whiplash": {
+    "title": "Whiplash, Modern Order Fulfillment",
+    "subtitle": "Working behind the scenes to support large ecommerce, Whiplash had been busy iterating on their backend until they joined 500 startups, prompting the need for a new brand identity.",
+    "outcome": "I was contracted to develop an identity system that stood apart from their competitors. This meant redoing everything from logo to color palette. I also developed their frontend using Bootstrap and Middleman, allowing their team to transition their web assets quickly.",
+    "url": "http://whiplashmerch.com",
+    "tag": "Brand Identity, Copy Writing",
+    "img": "design-whiplash.png"
+  },
+  "dew": {
+    "title": "Dew, Harvesting Pure Water From Air",
+    "subtitle": "Two Harvard and Stanford engineers developed a water harvester in a garage in Silicon Valley and were in need of design strategy to move the company forward. With California facing a water crisis, I put my skills to use.",
+    "outcome": "I designed their brand identity and drafted their website copy, eventually coding the static site. Gathering the key stakeholders, I conducted a design sprint to prioritize hardware product features and oversaw the industrial design of the appliance.",
+    "url": "http://getdew.com",
+    "tag": "Product Design, User Interface, Brand Identity",
+    "img": "design-dew.png"
+  },
+  "typelift": {
+    "title": "Typelift, Developing A Typographers Sandbox",
+    "subtitle": "I've been using modular scale for web typography since Tim Brown first introduced the concept but exploring font sizing and scaling has always been a tedious process.",
+    "outcome": "For my Gray Area Creative Code term project I wanted to visualize this mathematical power function and developed Typelift one weekend using AbsurdJS.",
+    "url": "http://vikrambabu.github.io/typelift/",
+    "tag": "Javascript, User Interface",
+    "img": "design-typelift.gif"
+  }
+}
